@@ -17,7 +17,7 @@ define('common', function(require, exports, module) {
   
   var THREE = _interopRequireWildcard(_three);
   
-  require('lodash/lodash');
+  var _lodash = require('lodash/lodash');
   
   function CreateScene(app, conf) {
     var __ = app;
@@ -186,7 +186,7 @@ define('common', function(require, exports, module) {
   }
   
   function Points__Data(__, data) {
-    data = _.merge({}, data, __.conf);
+    data = _lodash._.merge({}, data, __.conf);
   
     var _data = data;
     var mass = _data.mass;
@@ -281,7 +281,7 @@ define('common', function(require, exports, module) {
   }
   
   Points__Data.createCamera = function (__, data) {
-    data = _.merge({}, data, __.conf);
+    data = _lodash._.merge({}, data, __.conf);
     var renderer = __.renderer;
     var _renderer$domElement2 = renderer.domElement;
     var width = _renderer$domElement2.width;

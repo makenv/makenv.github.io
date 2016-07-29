@@ -11,7 +11,7 @@ require.resourceMap({
       "pkg": "p0"
     },
     "common": {
-      "url": "/is/demos/vis4/js/common_f4862e3.js",
+      "url": "/is/demos/vis4/js/common_8376042.js",
       "type": "js",
       "deps": [
         "three/three",
