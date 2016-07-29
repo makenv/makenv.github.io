@@ -18,12 +18,17 @@ require.resourceMap({
         "lodash/lodash"
       ]
     },
+    "conf": {
+      "url": "/is/demos/vis4//js/conf_8749188.js",
+      "type": "js"
+    },
     "apps/1": {
       "url": "/is/demos/vis4//js/apps/1_3d951b4.js",
       "type": "js",
       "deps": [
         "three/three",
-        "common"
+        "common",
+        "conf"
       ]
     }
   },
