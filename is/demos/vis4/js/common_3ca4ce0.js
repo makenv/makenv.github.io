@@ -17,7 +17,7 @@ define('common', function(require, exports, module) {
   
   var THREE = _interopRequireWildcard(_three);
   
-  require('lodash');
+  require('lodash/lodash');
   
   function CreateScene(app, conf) {
     var __ = app;

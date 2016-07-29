@@ -5,11 +5,17 @@ require.resourceMap({
       "type": "js",
       "pkg": "p0"
     },
+    "lodash/lodash": {
+      "url": "/is/demos/vis4//node_modules/lodash/lodash_c7ca1ac.js",
+      "type": "js",
+      "pkg": "p0"
+    },
     "common": {
-      "url": "/is/demos/vis4//js/common_4ead3d2.js",
+      "url": "/is/demos/vis4//js/common_3ca4ce0.js",
       "type": "js",
       "deps": [
-        "three/three"
+        "three/three",
+        "lodash/lodash"
       ]
     },
     "apps/1": {
@@ -23,7 +29,7 @@ require.resourceMap({
   },
   "pkg": {
     "p0": {
-      "url": "/is/demos/vis4//pkg/third_7bd3321.js",
+      "url": "/is/demos/vis4//pkg/third_8c8434c.js",
       "type": "js"
     }
   }
