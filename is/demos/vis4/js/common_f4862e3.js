@@ -332,7 +332,7 @@ define('common', function(require, exports, module) {
       return info;
     });
   }
-  //# sourceMappingURL=/is/demos/vis4//js/common.js.map
+  //# sourceMappingURL=/is/demos/vis4/js/common.js.map
   
 
 });

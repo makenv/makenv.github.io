@@ -22,7 +22,7 @@ define('conf', function(require, exports, module) {
     fenceOpacity: 0.5
   };
   exports.conf__1 = conf__1;
-  //# sourceMappingURL=/is/demos/vis4//js/conf.js.map
+  //# sourceMappingURL=/is/demos/vis4/js/conf.js.map
   
 
 });

@@ -66,7 +66,7 @@ define('apps/1', function(require, exports, module) {
   function onDocumentMouseUp(event) {
     __.mouse = undefined;
   }
-  //# sourceMappingURL=/is/demos/vis4//js/apps/1.js.map
+  //# sourceMappingURL=/is/demos/vis4/js/apps/1.js.map
   
 
 });
