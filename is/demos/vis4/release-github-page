@@ -12,7 +12,7 @@ fis3 release github \
 cd /Users/is/src/tmp/makenv.github.io/is/demos/vis4/
 
 git add .
-git commit -m "update vis4 $(date +%Y-%m-%d %H:%M:%S)"
+git commit -m "update vis4 $(date +'%Y-%m-%d %H:%M:%S')"
 git push
 
 popd
