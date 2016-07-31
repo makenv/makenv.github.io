@@ -1,0 +1,1 @@
+define("conf",function(e,o){"use strict";Object.defineProperty(o,"__esModule",{value:!0});var i={clearColor:0,clearOpacity:1,mass:600,cellsize:2,cellheight:4,opacity:.9,points:45e3,pointSize:.8,pointColor:10088106,sizeAttenuation:!1,fenceColor:16777215,fenceOpacity:.25};o.conf__1=i});
