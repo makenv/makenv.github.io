@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/fis-scaffold/default",
   "dependencies": {
-    "lodash": "^4.14.0",
+    "colormap": "^2.2.0",
+    "lodash": "^4.14.1",
     "three": "^0.79.0"
   },
   "devDependencies": {
