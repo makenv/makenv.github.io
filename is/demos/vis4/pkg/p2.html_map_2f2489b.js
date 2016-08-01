@@ -44,16 +44,25 @@ require.resourceMap({
       ]
     },
     "conf": {
-      "url": "/is/demos/vis4/js/conf_691c9bf.js",
+      "url": "/is/demos/vis4/js/conf_c7f1f0a.js",
       "type": "js"
     },
-    "apps/1": {
-      "url": "/is/demos/vis4/js/apps/1_33e9e68.js",
+    "points/index": {
+      "url": "/is/demos/vis4/js/points/index_c02c2fc.js",
       "type": "js",
       "deps": [
         "three/build/three",
+        "colormap/index"
+      ]
+    },
+    "apps/2": {
+      "url": "/is/demos/vis4/js/apps/2_b4b8e1d.js",
+      "type": "js",
+      "deps": [
         "common",
-        "conf"
+        "conf",
+        "points/index",
+        "three/build/three"
       ]
     }
   },
