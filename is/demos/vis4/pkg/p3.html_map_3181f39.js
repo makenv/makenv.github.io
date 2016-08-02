@@ -44,7 +44,7 @@ require.resourceMap({
       ]
     },
     "conf": {
-      "url": "/is/demos/vis4/js/conf_714780c.js",
+      "url": "/is/demos/vis4/js/conf_b6a0804.js",
       "type": "js",
       "deps": [
         "lodash/lodash"
@@ -59,8 +59,8 @@ require.resourceMap({
         "lodash/lodash"
       ]
     },
-    "apps/4": {
-      "url": "/is/demos/vis4/js/apps/4_af63ef5.js",
+    "apps/3": {
+      "url": "/is/demos/vis4/js/apps/3_d04c5c3.js",
       "type": "js",
       "deps": [
         "common",
