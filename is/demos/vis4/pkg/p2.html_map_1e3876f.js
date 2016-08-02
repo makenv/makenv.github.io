@@ -44,7 +44,7 @@ require.resourceMap({
       ]
     },
     "conf": {
-      "url": "/is/demos/vis4/js/conf_b6a0804.js",
+      "url": "/is/demos/vis4/js/conf_d2963fb.js",
       "type": "js",
       "deps": [
         "lodash/lodash"
