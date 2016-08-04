@@ -36,7 +36,7 @@ require.resourceMap({
       "pkg": "p0"
     },
     "common": {
-      "url": "/is/demos/vis4/js/common_683be2c.js",
+      "url": "/is/demos/vis4/js/common_7dcfffa.js",
       "type": "js",
       "deps": [
         "three/build/three",
@@ -44,29 +44,19 @@ require.resourceMap({
       ]
     },
     "conf": {
-      "url": "/is/demos/vis4/js/conf_d2963fb.js",
+      "url": "/is/demos/vis4/js/conf_7afc362.js",
       "type": "js",
       "deps": [
         "lodash/lodash"
       ]
     },
-    "points/index": {
-      "url": "/is/demos/vis4/js/points/index_0d6982f.js",
+    "apps/1": {
+      "url": "/is/demos/vis4/js/apps/1_33e9e68.js",
       "type": "js",
       "deps": [
         "three/build/three",
-        "colormap/index",
-        "lodash/lodash"
-      ]
-    },
-    "apps/2": {
-      "url": "/is/demos/vis4/js/apps/2_b4b8e1d.js",
-      "type": "js",
-      "deps": [
         "common",
-        "conf",
-        "points/index",
-        "three/build/three"
+        "conf"
       ]
     }
   },
